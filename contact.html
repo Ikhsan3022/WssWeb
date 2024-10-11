@@ -71,6 +71,60 @@
                 grid-template-columns: 1fr;
             }
         }
+
+        .containers {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .info-section {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 20px;
+        }
+        .info-box {
+            background-color: #f9f9f9;
+            border: 1px solid #ddd;
+            padding: 20px;
+            width: 48%;
+            display: flex;
+            align-items: center;
+        }
+        .info-box img {
+            width: 40px;
+            height: 40px;
+            margin-right: 15px;
+        }
+        .form-section {
+            background-color: #fff;
+            padding: 20px;
+            border: 1px solid #ddd;
+            margin-bottom: 20px;
+        }
+        .form-section input, 
+        .form-section textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        .form-section button {
+            background-color: #007BFF;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        .form-section button:hover {
+            background-color: #0056b3;
+        }
+        iframe {
+            width: 100%;
+            height: 300px;
+            border: 0;
+        }
     </style>
 </head>
 <body>
@@ -115,7 +169,7 @@
                             </ul>
                         </li>
                         <li><a href="#" title="">ARTICLE</a></li>
-                        <li><a href="news1.html" title="">NEWS</a></li>
+                        <li><a href="cnews1.html" title="">NEWS</a></li>
                         <li><a href="expor.html" title="">EXPOR & IMPOR</a></li>
                         <li><a href="galerry.html" title="">GALLERY</a></li>
                     </ul>                           
@@ -125,7 +179,7 @@
 		</nav>        
     </header>
     <div class="bread_area">
-        <div class="container">
+        <div class="containers">
             <div class="row">
                 <div class="col-sm-12">
                     <ol class="breadcrumb">
@@ -136,100 +190,65 @@
             </div>
         </div>
     </div>
-    <main class="site-main page-main">
-        <div class="container">
-            <div class="row">
-                <section class="page col-sm-9">
-                    <h2 class="page-title">PT. WSS</h2>
-                    <div class="entry">
-                        <strong>Pengurusan Perizinan, Custom Clearance, dan Borongan Ekspor Impor</strong>  
-                        <br>
-                        <p>PT WSS adalah sebuah perusahaan yang bergerak dibidang Pengusaha Pengurusan jasa Kepabeanan (PPJK). Kami melayani pengurusan dokumen terkait kepabeanan, perizinan impor dan lain sebagainya.</p>   
-                        <h2 class="page-title2"></h2>    
-                        <h2 style="position: Center; margin-left: 330px;" >Kenapa Memilih Kami?</h2> 
-                        <p style="position: Center; margin-left: 130px;">Beberapa alasan mengapa PT WSM adalah pilihan tepat untuk pengurusan dokumen impor dan ekspor:</p>              
-                    </div>
-                    
-<div class="container2">
-    <div class="grid">
-        <div class="service-box">
-            <img src="img/check-icon.png" alt="icon">
-            <h3>Pengalaman</h3>
-            <p>Berbekal pengalaman belasan tahun di bidang ekspor impor, warehouse, logistic, dan inventory</p>
-        </div>
-        <div class="service-box">
-            <img src="img/check-icon.png" alt="icon">
-            <h3>SDM Handal</h3>
-            <p>Operasional adalah tenaga muda yang energik dan pantang menyerah</p>
-        </div>
-        <div class="service-box">
-            <img src="img/check-icon.png" alt="icon">
-            <h3>Qualitas</h3>
-            <p>Qualitas hasil kerja yang memuaskan</p>
-        </div>
-        <div class="service-box">
-            <img src="img/check-icon.png" alt="icon">
-            <h3>Kecepatan</h3>
-            <p>Kecepatan kerja yang bisa diandalkan</p>
-        </div>
-        <div class="service-box">
-            <img src="img/check-icon.png" alt="icon">
-            <h3>Pengetahuan</h3>
-            <p>Pengetahuan yang cukup untuk memberikan informasi terkait dokumen dan proses pekerjaan</p>
-        </div>
-        <div class="service-box">
-            <img src="img/check-icon.png" alt="icon">
-            <h3>Siap Selalu</h3>
-            <p>Tidak dibatasi waktu dan tempat kerja, customer dipersilakan menghubungi kami 23 jam kerja</p>
-        </div>
-        <div class="service-box">
-            <img src="img/check-icon.png" alt="icon">
-            <h3>Dukungan Armada</h3>
-            <p>Disupport oleh ketersediaan trucking dan armada yang cukup</p>
-        </div>
-        <div class="service-box">
-            <img src="img/check-icon.png" alt="icon">
-            <h3>Integritas</h3>
-            <p>Selalu menjaga kerahasiaan dokumen customer</p>
-        </div>
-        <div class="service-box">
-            <img src="img/check-icon.png" alt="icon">
-            <h3>Solutif</h3>
-            <p>Selalu memberikan solusi kepada customer atas impor, ekspor dan pekerjaan lainnya</p>
-        </div>
-        <div class="service-box">
-            <img src="img/check-icon.png" alt="icon">
-            <h3>Jangkauan Wilayah</h3>
-            <p>Mencakup area Jatim, Jateng, DIY, dan Jakarta</p>
-        </div>
-    </div>
-</div>
-<div class="entry">  
-    <h2 style="position: Center; margin-left: 330px;" >komoditi yang pernah dihandle    </h2> 
-    <p style="position: Center; margin-left: 130px;">
-        Komoditi yang pernah kami handle adalah :
-        Kayu, besi dan baja, mesin, buah, tekstil, obat-obatan, peralatan Rumah Sakit, hasil pertanian, dan lain-lain
-        Cek galeri kami di google
-        </p>              
-</div>
-                </section>
-                
-                <aside class="sidebar col-sm-3">
-                    <div class="widget">
-                        <h4>SERVICES</h4>
-                        <ul>
-                            <li class="current"><a href="#" title="">Service Title One</a></li>
-                            <li><a href="#" title="">Service Title Two</a></li>
-                            <li><a href="#" title="">Service Title Three</a></li>
-                            <li><a href="#" title="">Service Title Four</a></li>
-                        </ul>
-                    </div>
-                </aside>
+    
+    <div class="containers">
+
+        <!-- Contact Information Section -->
+        <div class="info-section">
+            <div class="info-box">
+                <img src="phone-icon.png" alt="Phone Icon" class="fa fa-phone">
+                <div>
+                    <strong>Achsan, Customer Service and Sales :</strong><br>
+                    0811 329 8150
+                </div>
+            </div>
+            <div class="info-box">
+                <img src="email-icon.png" alt="Email Icon">
+                <div>
+                    <strong>Email :</strong><br>
+                    wibawa@wss-sub.com<br>
+                    wibawasub.888@gmail.com
+                </div>
             </div>
         </div>
-    </main>
+    
+        <div class="info-section">
+            <div class="info-box">
+                <img src="location-icon.png" alt="Location Icon">
+                <div>
+                    <strong>Kantor Pusat :</strong><br>
+                    Perumtas 5 Blok K07 No. 01, Sidoarjo
+                </div>
+            </div>
+            <div class="info-box">
+                <img src="location-icon.png" alt="Location Icon">
+                <div>
+                    <strong>Kantor Cabang :</strong><br>
+                    Jl. Godean KM 13,5, Sleman, Yogyakarta
+                </div>
+            </div>
+        </div>
+    
+        <!-- Contact Form Section -->
+        <div class="form-section">
+            <h3>Minta Penawaran? atau ada Pertanyaan?</h3>
+            <p>Anda bisa meminta penawaran melalui form di sini. Atau barangkali anda lebih suka mengirim pesan lewat email, bisa melalui form ini.</p>
+            <form action="/send-message" method="post">
+                <input type="text" name="name" placeholder="Nama" required>
+                <input type="email" name="email" placeholder="Email" required>
+                <textarea name="message" placeholder="Isi pesan/keterangan" rows="5" required></textarea>
+                <button type="submit">Kirim</button>
+            </form>
+        </div>
+    
+        <!-- Google Maps Embed -->
+        <iframe 
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3952.624716514462!2d112.6618627!3d-7.4329119!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd7e07f645434db%3A0x42e4c61062fcb823!2sPT%20Wibawa%20Sokojati%20Sarana!5e0!3m2!1sen!2sid!4v1649576961074!5m2!1sen!2sid"
+            allowfullscreen="" loading="lazy"></iframe>
+    
+    </div>
     <footer class="site-footer">
-        <div class="container">
+        <div class="containers">
             <div class="row">
                 <div class="col-md-3 col-sm-6 col-xs-12 fbox">
                     <h4>COMPANY NAME</h4>
@@ -256,7 +275,7 @@
                     </ul>
                 </div>
                 <div class="col-md-3 col-sm-6 col-xs-12 fbox">
-                    <h4>CONTACT</h4>
+                    <!-- <h4>CONTACT</h4>
                     <form id="whatsappForm">
                         <label for="name">Name:</label>
                         <input type="text" id="name" name="name" required>
@@ -269,7 +288,7 @@
                 
                         <input type="submit" value="Send Message">
                     </form>
-                </div>
+                </div> -->
                 <div class="col-md-3 col-sm-6 col-xs-12 fbox">
                     <!--Ape isis opo ga roh  -->
                 
